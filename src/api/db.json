@@ -1,0 +1,34 @@
+{
+  "proyectos": [
+    {
+      "id": "1",
+      "nombre": "Chatbot de Ventas",
+      "descripcion": "Prompts para atención al cliente."
+    },
+    {
+      "id": "Sz3i7NzqtP4",
+      "nombre": "Mi primer proyecto",
+      "descripcion": "prueba"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "101",
+      "proyectoId": "1",
+      "titulo": "Saludo inicial",
+      "contenido": "Eres un asistente amable. Saluda al cliente y pregunta en qué puedes ayudarlo.",
+      "version": 1
+    }
+  ],
+  "ejecuciones": [
+    {
+      "id": "GdnbHZl0-Lg",
+      "promptId": "101",
+      "modelo": "Claude 3",
+      "latencia": 1.22,
+      "tokens": 487,
+      "fecha": "2026-11-09T01:03:10.685Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
